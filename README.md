@@ -27,7 +27,7 @@ The BERT model was fine-tuned on the Twitter US Airline Sentiment dataset:
 [!IMPORTANT]
 
  Download Pre-trained Model
-Due to file size limits on GitHub, the trained BERT model weights are hosted on Google Drive. 📥 Download BERT Model (models.zip) Extract the contents into the models/final_bert_model/ directory before running the application.
+Due to file size limits on GitHub, the trained BERT model weights are hosted on Releases. 📥 Download BERT Model (models.zip) from releases. Extract the contents into the models/final_bert_model/ directory before running the application.
 
 Accuracy: ~81% (Restored to best weights from Epoch 2 to prevent overfitting).
 
@@ -35,7 +35,8 @@ Optimization: Implemented EarlyStoppingCallback with patience=2.
 
  Installation & Usage
 Clone the repository:
-
+git clone https://github.com/ZekiKurt0/Social-Media-Sentiment-Trend.git
+cd social-media-sentiment-trend
 * Bash
 git clone [https://github.com/ZekiKurt0/Social-Media-Sentiment-Trend.git](https://github.com/ZekiKurt0/social-media-sentiment-trend.git)
 cd social-media-sentiment-trend
