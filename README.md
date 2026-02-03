@@ -24,9 +24,10 @@ An end-to-end NLP and Time-Series project that performs sentiment analysis on ai
 
  Model Performance
 The BERT model was fine-tuned on the Twitter US Airline Sentiment dataset:
+[!IMPORTANT]
 
-!!!!!!!!!!!!!  YOU CAN DOWNLOAD MY BERT MODEL FROM THIS DRIVE LINK:               
-(https://drive.google.com/file/d/1yuH7xcSsjuVy6aU2f73ubTtXLOvdLh7P/view?usp=sharing)
+ Download Pre-trained Model
+Due to file size limits on GitHub, the trained BERT model weights are hosted on Google Drive. 📥 Download BERT Model (models.zip) Extract the contents into the models/final_bert_model/ directory before running the application.
 
 Accuracy: ~81% (Restored to best weights from Epoch 2 to prevent overfitting).
 
